@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2.0">
-  <zoom_level>10</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>460</x>
-      <y>140</y>
-      <w>440</w>
-      <h>660</h>
-    </coordinates>
-    <panel_attributes>Super Mario</panel_attributes>
-    <additional_attributes/>
-  </element>
+  <zoom_level>12</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>220</x>
-      <y>350</y>
-      <w>60</w>
-      <h>110</h>
+      <x>180</x>
+      <y>348</y>
+      <w>72</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>Hakan</panel_attributes>
     <additional_attributes/>
@@ -26,10 +15,88 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>610</x>
-      <y>250</y>
-      <w>150</w>
+      <x>516</x>
+      <y>216</y>
+      <w>180</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Options</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>240</y>
+      <w>312</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;110.0;240.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>528</x>
+      <y>348</y>
+      <w>156</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>World/Level 
+choice</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>348</y>
+      <w>324</w>
       <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;250.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>360</y>
+      <w>132</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>756</x>
+      <y>360</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Play</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>528</x>
+      <y>492</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Exit Game</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>744</x>
+      <y>144</y>
+      <w>180</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Change control
 settings</panel_attributes>
@@ -38,56 +105,82 @@ settings</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>270</y>
-      <w>370</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;100.0;350.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>550</x>
-      <y>350</y>
-      <w>130</w>
+      <x>636</x>
+      <y>180</y>
+      <w>144</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Level choice</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>260</x>
-      <y>350</y>
-      <w>310</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;20.0;290.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>670</x>
-      <y>370</y>
-      <w>90</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;70.0;30.0</additional_attributes>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>710</x>
-      <y>400</y>
-      <w>120</w>
-      <h>40</h>
+      <x>768</x>
+      <y>228</y>
+      <w>180</w>
+      <h>72</h>
     </coordinates>
-    <panel_attributes>Play</panel_attributes>
+    <panel_attributes>Volume settings</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>228</y>
+      <w>108</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>360</y>
+      <w>336</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;260.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>264</y>
+      <w>168</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>60</y>
+      <w>528</w>
+      <h>792</h>
+    </coordinates>
+    <panel_attributes>Super Mario</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>396</y>
+      <w>168</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;100.0;120.0;10.0</additional_attributes>
   </element>
 </diagram>
