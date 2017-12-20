@@ -1,2 +1,22 @@
-Functions of Minion:
+Variables of Minions:
+
+Minionstate: Lebensstatus des Minions
+
+killotherunits: kann Minion auch andere Monster Töten oder nicht
+
+iBLockID:
+
+fXPos,fYPos: Position des Minions
+
+minionspawned: minion sichtbar oder nicht
+
+collisionOnlyWithPlayer:  Player töten oder nicht
+
+deadtime: Zeit wann er stirbt
+
+moveDirection: Laufrichtung des Minions
+
+movespeed: Geschwindigkeit
+
+-------------------------------------------------------------------------------
 

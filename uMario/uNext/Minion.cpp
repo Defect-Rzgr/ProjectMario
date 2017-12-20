@@ -14,7 +14,7 @@ Minion::Minion(void) {
 	this->moveDirection = true;
 	this->moveSpeed = 1;
 
-	this->jumpState = 0;
+	this->jumpState = 5;
 	this->startJumpSpeed = 6.65f;
 	this->currentFallingSpeed = 2.2f;
 
